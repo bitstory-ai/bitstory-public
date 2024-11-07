@@ -28,21 +28,3 @@ print(bts.__version__)
 (.venv) $ python myfile.py 
 Bitstory Version: 0.1.3
 ```
-
-### Installation Example Using Test Script
-$ python -m venv .venv
-$ source .venv/bin/activate
-(.venv) $ pip install bitstory
-Collecting bitstory
-  Downloading bitstory-0.1.3-py3-none-any.whl (2.5 kB)
-Installing collected packages: bitstory
-Successfully installed bitstory-0.1.3
-
-$ python test/test_installation.py 
-Bitstory Version: 0.1.3
-
-
-
-
-
-
